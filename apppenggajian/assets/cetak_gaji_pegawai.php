@@ -33,8 +33,6 @@ if(isset($_SESSION['login'])){
     if (isset($_SESSION['bulantahun'])) {
         $bulantahun = $_SESSION['bulantahun'];
         echo "Nilai bulan dan tahun dari session: " . $bulantahun;
-    } else {
-        echo "Nilai bulan dan tahun belum ada di session.";
     }
 
     ?>
